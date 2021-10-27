@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Textstrokecolor.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:labelupdatedemo="clr-namespace:Textstrokecolor">
+
+    <StackLayout>
+        <Frame
+            Padding="24"
+            BackgroundColor="#2196F3"
+            CornerRadius="0">
+            <Label
+                FontSize="36"
+                HorizontalTextAlignment="Center"
+                Text="Welcome to Xamarin.Forms!"
+                TextColor="White"
+                />
+        </Frame>
+        <labelupdatedemo:MyCustomLabel 
+            x:Name = "BTTextStatus"
+            FontAttributes="Bold"
+            Text="Label"
+            FontSize="Large"
+             StrokeColor="Yellow"
+            StrokeThickness="5"
+            TextColor="Green"/>
+        
+        
+    </StackLayout>
+
+</ContentPage>
